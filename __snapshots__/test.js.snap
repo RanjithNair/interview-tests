@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Coding Tests Find all the entries whose age is more than 20 1`] = `
+Array [
+  Object {
+    "age": 22,
+    "name": "AB Daniels",
+  },
+  Object {
+    "age": 25,
+    "name": "Thomas Jeffrey",
+  },
+]
+`;
+
+exports[`Coding Tests Find all the entries whose age is more than 25 1`] = `
+Array [
+  Object {
+    "age": 22,
+    "name": "Rafael Nadal",
+  },
+  Object {
+    "age": 25,
+    "name": "Novak Djokovic",
+  },
+]
+`;
+
+exports[`Coding Tests Find average of the numbers in an array 1`] = `39.37`;
+
+exports[`Coding Tests Increase the age attribute by 2 1`] = `
+Array [
+  Object {
+    "age": 39,
+    "name": "Roger Federer",
+  },
+  Object {
+    "age": 34,
+    "name": "Rafael Nadal",
+  },
+  Object {
+    "age": 32,
+    "name": "Novak Djokovic",
+  },
+]
+`;
+
+exports[`Coding Tests Print all the keys of the objects in an array 1`] = `
+Array [
+  "age",
+  "name",
+  "place",
+  "designation",
+]
+`;
+
+exports[`Coding Tests Print all the values of the objects in an array 1`] = `
+Array [
+  "22",
+  "ABC",
+  "Milwaukee",
+  "Software Developer",
+]
+`;

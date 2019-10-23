@@ -1,0 +1,14 @@
+{
+  "name": "infycodingtest",
+  "version": "1.0.0",
+  "description": "Coding test for Infosys recruitment",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch test.js"
+  },
+  "author": "RJ",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
