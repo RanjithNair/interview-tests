@@ -1,5 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Coding Tests Create a class Shape with 2 attributes (height, width) and a method getArea which returns area = height * width 1`] = `[Function]`;
+
 exports[`Coding Tests Find all the entries whose age is more than 20 1`] = `
 Array [
   Object {
@@ -60,5 +62,22 @@ Array [
   "ABC",
   "Milwaukee",
   "Software Developer",
+]
+`;
+
+exports[`Coding Tests Sort array of objects 1`] = `
+Array [
+  Object {
+    "name": "Rafael Nadal",
+    "ranking": 1,
+  },
+  Object {
+    "name": "Novak Djokovic",
+    "ranking": 2,
+  },
+  Object {
+    "name": "Roger Federer",
+    "ranking": 3,
+  },
 ]
 `;
