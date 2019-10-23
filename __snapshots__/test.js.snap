@@ -65,6 +65,8 @@ Array [
 ]
 `;
 
+exports[`Coding Tests Promises 1`] = `Promise {}`;
+
 exports[`Coding Tests Sort array of objects 1`] = `
 Array [
   Object {

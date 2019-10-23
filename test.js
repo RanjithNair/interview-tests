@@ -95,10 +95,33 @@ describe('Coding Tests', () => {
       }
     }
     const result = null
-    expect(result).toEqual(expect.objectContaining({
-      height: expect.any(Number),
-      width: expect.any(Number)
-    }))
+    expect(result).toEqual(
+      expect.objectContaining({
+        height: expect.any(Number),
+        width: expect.any(Number)
+      })
+    )
     expect(result.getArea()).toBeDefined()
+  })
+
+  it('Create a function which returns a promise by resolving the value specified in the parameter', async () => {
+    // Create a resolve promise which resolves the parameter being sent
+    const resolvePromise = null
+    /* const resolvePromise = data =>
+      new Promise((resolve, reject) => {
+        resolve(data)
+      }) */
+    expect(resolvePromise('Success')).resolves.toEqual('Success')
+    // Create a reject promise which rejects with an object of key error and value as the parameter being sent
+    const rejectPromise = null
+    /* const rejectPromise = data =>
+      new Promise((resolve, reject) => {
+        reject({
+          error: data
+        })
+      }) */
+    expect(rejectPromise('Failure Reject')).rejects.toEqual({
+      error: 'Failure Reject'
+    })
   })
 })
