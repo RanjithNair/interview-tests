@@ -135,6 +135,34 @@ describe('Coding Tests', () => {
     expect(obj2).toMatchSnapshot()
     // Create a new object in obj3 from obj1 by deleting the attribute "profession"
     const obj3 = null
-    expect(obj3).toEqual({name : 'Roger Federer'})
+    expect(obj3).toEqual({ name: 'Roger Federer' })
+  })
+
+  it('Group by on array of objects', () => {
+    const obj = [
+      {
+        name: 'James',
+        score: 90,
+        division: 1
+      },
+      {
+        name: 'Mark',
+        score: 100,
+        division: 1
+      },
+      {
+        name: 'Thomas',
+        score: 70,
+        division: 2
+      },
+      {
+        name: 'Jack',
+        score: 60,
+        division: 3
+      }
+    ]
+    // Write code to group by on the array of object using division
+    const groupedByObj = {}
+    expect(groupedByObj).toMatchSnapshot()
   })
 })

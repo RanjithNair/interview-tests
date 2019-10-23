@@ -38,6 +38,37 @@ Array [
 
 exports[`Coding Tests Find average of the numbers in an array 1`] = `39.37`;
 
+exports[`Coding Tests Group by on array of objects 1`] = `
+Object {
+  "1": Array [
+    Object {
+      "division": 1,
+      "name": "James",
+      "score": 90,
+    },
+    Object {
+      "division": 1,
+      "name": "Mark",
+      "score": 100,
+    },
+  ],
+  "2": Array [
+    Object {
+      "division": 2,
+      "name": "Thomas",
+      "score": 70,
+    },
+  ],
+  "3": Array [
+    Object {
+      "division": 3,
+      "name": "Jack",
+      "score": 60,
+    },
+  ],
+}
+`;
+
 exports[`Coding Tests Increase the age attribute by 2 1`] = `
 Array [
   Object {
