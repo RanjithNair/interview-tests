@@ -1,5 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Coding Tests Add/Delete attributes to object 1`] = `
+Object {
+  "name": "Roger Federer",
+  "profession": "tennnis",
+  "ranking": 3
+}
+`;
+
 exports[`Coding Tests Create a class Shape with 2 attributes (height, width) and a method getArea which returns area = height * width 1`] = `[Function]`;
 
 exports[`Coding Tests Find all the entries whose age is more than 20 1`] = `

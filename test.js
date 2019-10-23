@@ -124,4 +124,17 @@ describe('Coding Tests', () => {
       error: 'Failure Reject'
     })
   })
+
+  it('Add/Delete attributes to object', () => {
+    const obj1 = {
+      name: 'Roger Federer',
+      profession: 'tennnis'
+    }
+    // Create a new object in obj2 from obj1 and add a new attribute named "ranking" with a value of 3
+    const obj2 = null
+    expect(obj2).toMatchSnapshot()
+    // Create a new object in obj3 from obj1 by deleting the attribute "profession"
+    const obj3 = null
+    expect(obj3).toEqual({name : 'Roger Federer'})
+  })
 })
